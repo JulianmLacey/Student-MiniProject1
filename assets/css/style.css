@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Sets the background color of the page*/
+  body {
+    background-color: #d9dcd6;
+  }
+  
+  /* Sets The font padding and color of the header bar */
+  .header {
+    padding: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+  }
+  
+  /* font and position of page selectors */
+  .header h1 {
+    display: inline-block;
+    font-size: 48px;
+  }
+  
+  /* Sets the style of the header */
+  .header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+  }
+  
+  /* sets the style of the header list */
+  .header div ul {
+    list-style-type: none;
+  }
+  
+  /* sets the style of the header list items, positioning*/
+  .header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    scroll-behavior: smooth;
+  }
+  
+  /* sets the of the universial text, white with no underline for links */
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .hero-boat {
+    height: 800px;
+    margin-left: 5%;
+    width: 90%;
+    
+    margin-bottom: 25px;
+    margin-top:5px;
+    background-image: url("../images/boat.png");
+    /*background-color: #1dc49d;*/
+    background-size: cover;
+    background-position: center;
+  }
+
+  .content {
+    width: 75%;
+    height: 2000px;
+    display: inline-block;
+    margin-left: 12.5%;
+  
+    
+  }
+
+
+  .form-style{
+    text-align: center;
+    font-size: 26px;
+    margin: 100px;
+    color:white;
+  }
+
+  .form-style h3{
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 30px;
+  }
+
+  .form{
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 24px;
+    column-width: 50%;
+    color: white;
+    text-decoration: none;
+    
+  }
+
+
+  input{
+    width: 25%;
+    height: 30px;
+    border: 2px solid white;
+    background: none;
+    text-align: left;
+    
+  }
+
+ .content h2{
+    text-align: center;
+ }
+
+
+
+  body {
+    background: linear-gradient(-45deg, #494848, #be2c64, #ffc96c, #ac9154);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.footer {
+    padding: 30px;
+    bottom: 0px;
+    clear: both;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .footer h2 {
+    font-size: 20px;
+  }
